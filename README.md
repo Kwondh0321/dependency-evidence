@@ -1,11 +1,17 @@
 # DependencyEvidence
 
+한국어 | [English](README.en.md)
+
 DependencyEvidence는 외부 레지스트리에 접속하지 않고 의존성 버전·출처·직접성·라이선스 근거를 정리합니다. npm 잠금 파일, Python requirements와 `pyproject.toml`, Cargo 잠금 파일을 지원합니다.
 
 ## 설치 및 사용
 
 ```bash
-python -m pip install -e .
+git clone https://github.com/Kwondh0321/dependency-evidence.git
+cd dependency-evidence
+python -m venv .venv
+source .venv/bin/activate  # Windows: .venv\Scripts\activate
+python -m pip install .
 dependency-evidence . --output dependency-evidence.json
 dependency-evidence . --fail-on unpinned
 ```
@@ -28,4 +34,3 @@ python -m unittest discover -s tests -v
 ## 라이선스
 
 MIT
-

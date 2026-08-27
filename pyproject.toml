@@ -12,9 +12,16 @@ license = { text = "MIT" }
 authors = [{ name = "Kwondh0321" }]
 keywords = ["dependencies", "licenses", "supply-chain", "evidence", "audit"]
 
+[project.optional-dependencies]
+dev = ["ruff==0.16.4"]
+
+[project.urls]
+Homepage = "https://github.com/Kwondh0321/dependency-evidence"
+Repository = "https://github.com/Kwondh0321/dependency-evidence.git"
+Issues = "https://github.com/Kwondh0321/dependency-evidence/issues"
+
 [project.scripts]
 dependency-evidence = "depevidence.cli:main"
 
 [tool.setuptools.packages.find]
 where = ["src"]
-
