@@ -1,6 +1,6 @@
 # DependencyEvidence
 
-[한국어](README.md) | English
+[한국어](README.md) | English | [Changelog / 변경 기록](CHANGELOG.md)
 
 DependencyEvidence creates an offline report of dependency versions, sources, directness, and local license evidence. It supports npm lock files, Python requirements and `pyproject.toml`, and Cargo lock files without querying external registries.
 

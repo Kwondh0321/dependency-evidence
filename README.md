@@ -1,6 +1,6 @@
 # DependencyEvidence
 
-한국어 | [English](README.en.md)
+한국어 | [English](README.en.md) | [변경 기록 / Changelog](CHANGELOG.md)
 
 DependencyEvidence는 외부 레지스트리에 접속하지 않고 의존성 버전·출처·직접성·라이선스 근거를 정리합니다. npm 잠금 파일, Python requirements와 `pyproject.toml`, Cargo 잠금 파일을 지원합니다.
 
