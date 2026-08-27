@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dependency-evidence"
+version = "0.1.0"
+description = "Generate offline dependency version, source, and license evidence reports"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [{ name = "Kwondh0321" }]
+keywords = ["dependencies", "licenses", "supply-chain", "evidence", "audit"]
+
+[project.scripts]
+dependency-evidence = "depevidence.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
